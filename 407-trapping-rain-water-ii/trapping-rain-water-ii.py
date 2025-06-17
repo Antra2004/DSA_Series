@@ -33,4 +33,3 @@ class Solution(object):
                     heapq.heappush(pq, (max(h, heightMap[nx][ny]), nx, ny))
 
         return ans
-        
